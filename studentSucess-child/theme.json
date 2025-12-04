@@ -1,0 +1,65 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "calm-blue",
+          "name": "Calm Blue",
+          "color": "#3B82F6"
+        },
+        {
+          "slug": "focus-navy",
+          "name": "Focus Navy",
+          "color": "#0F172A"
+        },
+        {
+          "slug": "fresh-green",
+          "name": "Fresh Green",
+          "color": "#10B981"
+        },
+        {
+          "slug": "sunrise-yellow",
+          "name": "Sunrise Yellow",
+          "color": "#F59E0B"
+        },
+        {
+          "slug": "paper",
+          "name": "Paper",
+          "color": "#FFFFFF"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "System-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif",
+          "name": "System Sans",
+          "slug": "system-sans"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "var(--wp--preset--color--focus-navy)",
+      "background": "var(--wp--preset--color--paper)"
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--calm-blue)"
+        }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "text": "var(--wp--preset--color--paper)",
+          "background": "var(--wp--preset--color--fresh-green)"
+        }
+      }
+    }
+  }
+}

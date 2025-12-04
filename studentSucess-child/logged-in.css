@@ -1,0 +1,34 @@
+
+body.logged-in {
+    outline: 4px dashed rgba(0, 0, 0, 0.04);
+}
+
+.wp-site-blocks { max-width: 1200px; }
+h1 { letter-spacing: -0.5px; }
+h2 { letter-spacing: -0.25px; }
+ a { text-decoration-thickness: 2px; }
+ .wp-block-button__link {
+  border-radius: 999px;
+  padding: 0.9rem 1.6rem;
+}
+
+.wp-block-post-excerpt { color: #4b5563; }
+
+.wp-block-image img { border-radius: 12px; }
+
+.wp-block-navigation a {
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+}
+
+.wp-block-separator { opacity: 0.4; }
+
+.wp-block-query-pagination-numbers .page-numbers {
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+}
+
+.wp-block-post-content p,
+       .wp-block-comments p {
+  line-height: 1.8;
+}
